@@ -10,14 +10,6 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  #word_list = text.scan(/\w+/)
-  #word_list5 = [] 
-  #for word in word_list do 
-  #  if word.length == 5 
-  #    word_list5 << word
-  #  end 
-  #end
-  #return word_list5
 
   return text.scan(/\b\w{5}\b/)
 
