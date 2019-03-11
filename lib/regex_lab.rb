@@ -14,8 +14,10 @@ def words_five_letters_long(text)
   word_list5 = [] 
   for word in word_list do 
     if word.length == 5 
-      word << 
-  end 
+      word << word_list5
+    end 
+  end
+  return word_list5
 
 end
 
