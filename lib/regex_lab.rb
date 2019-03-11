@@ -13,7 +13,8 @@ def words_five_letters_long(text)
   word_list = text.scan(/\w+/)
   word_list5 = [] 
   for word in word_list do 
-    if word.length 
+    if word.length == 5 
+      
   end 
 
 end
